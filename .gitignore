@@ -1,0 +1,61 @@
+# ── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+env/
+venv/
+.venv/
+ENV/
+
+# ── Jupyter / Colab ──────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ── DEM / Geospatial data files ──────────────────────────────────────────────
+# GeoTIFF and related raster formats
+*.tif
+*.tiff
+*.geotiff
+# SRTM HGTL files
+*.hgt
+# Compressed archives commonly used to distribute DEM tiles
+*.zip
+*.tar.gz
+*.gz
+*.7z
+# Shapefile / vector by-products
+*.shp
+*.dbf
+*.shx
+*.prj
+*.cpg
+
+# ── Output / results ─────────────────────────────────────────────────────────
+output/
+results/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.nc
+*.h5
+*.hdf5
+
+# ── OS and editor artefacts ──────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
