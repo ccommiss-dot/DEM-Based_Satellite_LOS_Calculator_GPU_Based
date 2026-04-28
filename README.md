@@ -2,6 +2,9 @@
 
 ## Welcome to the DEM-Based Satellite LOS Calculator! This tool computes satellite visibility and Search & Rescue (SAR) metrics (like Maximum Continuous Blackout Time) over complex terrain using massive GPU acceleration.
 
+## Here is the Google CoLab link for direct use if interested
+https://colab.research.google.com/drive/16rrXBUIgFuy-hI2MdzBWx1-oJAnujhFg?usp=sharing
+
 ## 📖 Overview
 
 This pipeline is designed for high-performance, complex-terrain satellite line-of-sight analysis. It uses a custom CUDA-fused GPU ray-tracing engine to simulate thousands of satellite passes over digital elevation models (DEMs), calculating precise signal blockages and communication windows caused by physical topography (the "False Horizon" effect).
